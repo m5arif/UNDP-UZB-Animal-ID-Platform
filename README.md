@@ -21,8 +21,8 @@ A modern React 19 application built with Vite 7.2.5 using the rolldown bundler f
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+  git clone <repository-url>
 cd reactproject1
 
 # Install dependencies
-npm install
+  npm install
