@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "sourcery.sourcery"
+        "sourcery.sourcery",
+        "ms-iot.msiot-vscode-openenclave"
     ]
 }
