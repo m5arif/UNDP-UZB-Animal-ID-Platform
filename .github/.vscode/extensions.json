@@ -3,6 +3,7 @@
         "sourcery.sourcery",
         "ms-iot.msiot-vscode-openenclave",
         "salesforce.mule-dx-vscode",
-        "salesforce.mule-dx-extension-pack"
+        "salesforce.mule-dx-extension-pack",
+        "wscats.vue"
     ]
 }
