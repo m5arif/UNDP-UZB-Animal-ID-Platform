@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "sourcery.sourcery",
-        "ms-iot.msiot-vscode-openenclave"
+        "ms-iot.msiot-vscode-openenclave",
+        "salesforce.mule-dx-vscode"
     ]
 }
