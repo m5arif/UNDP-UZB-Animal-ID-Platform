@@ -4,6 +4,12 @@
         "ms-iot.msiot-vscode-openenclave",
         "salesforce.mule-dx-vscode",
         "salesforce.mule-dx-extension-pack",
-        "wscats.vue"
+        "wscats.vue",
+        "docker.docker",
+        "docker.docker-vscode-extension",
+        "docker.labs-ai-tools-vscode",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "ms-azuretools.vscode-containers"
     ]
 }
