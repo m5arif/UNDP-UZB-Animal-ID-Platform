@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  build-and-test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. Checkout your code
+      - uses: actions/checkout@v4
+
+      # 2. Install Bun (The missing piece in your current setup)
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      # 3. Install dependencies using Bun's lockfile
+      - name: Install Dependencies
+        run: bun install
+
+      # 4. Run the build script defined in your package.json
+      - name: Build
+        run: bun run build
